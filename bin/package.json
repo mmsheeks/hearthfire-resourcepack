@@ -1,0 +1,26 @@
+{
+  "name": "cc-resourcepack-builder",
+  "version": "1.0.0",
+  "description": "Builds a resource pack",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "test": "node test-build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clovercraft/resource-pack.git"
+  },
+  "author": "Martin Sheeks <martin.sheeks@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clovercraft/resource-pack/issues"
+  },
+  "homepage": "https://github.com/clovercraft/resource-pack#readme",
+  "dependencies": {
+    "@octokit/core": "^4.0.4",
+    "archiver": "^5.3.1",
+    "dotenv": "^16.0.1",
+    "path": "^0.12.7"
+  }
+}
